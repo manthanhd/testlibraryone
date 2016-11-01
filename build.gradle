@@ -1,0 +1,10 @@
+apply plugin: 'java'
+
+jar {
+    baseName = 'testlibraryone'
+    version = '1.0.0'
+}
+
+dependencies {
+    testCompile 'junit:junit:4.12'
+}
